@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+   
+    <div class="hero" id = "home">
+    
+        <div class="home_1">
+    <nav>
+        <h2 class="logo">Portfo<span>lio</span></h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <a href="Nematov Muhammadjon.pdf" class="btn">Resume</a>
+    </nav>
+    </div>
+    <div class="content">
+        <h4>Hello, my name is</h4>
+        <h1> Nematov <span>Muhammadjon</span></h1>
+        <h3>I'm a Web Developer</h3>
+        <div class="newsletter">
+            <form >
+                <input 
+                 type="email"
+                 name="email"
+                 id="mail"
+                 placeholder="Enter your email"
+                >
+                <input 
+                class="submit-btn"
+                name="submit"
+                type="submit"
+                value="Subscribe"
+               >
+            </form>
+        </div>
+    </div>
+    </div>
+
+   
+    <!-- About section start -->
+    <section class="about" id="about">
+        
+        <div>                   
+            <div class="img"><img src="img/Muhammadjon.jpg" alt="smile" ></div>
+            
+            <div class="about_div">
+            <h2 class="about_me">About Me</h2>
+            <h3 class="developer">Software <span>Developer</span></h3>
+            <p class="text_about">I am a software developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. 
+                I also make the website more & more interactive with web animations.
+            </p> 
+            <div><a href="https://telegram.me/smile_nmz" class="btn_2" >Let's Talk </a></div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- Skill section start  -->
+    <section id="skill">
+    <div class="skill" >
+        <div class="skill-title">
+          <h2>My skills</h2>  
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class= "fas fa-bars"></i>
+                    <h5>Web Development</h5>
+                    <div class="card-paragraph"> 
+                        <p>I can create beautiful and good websites.  I mainly work with HTML, CSS, JavaScript.  Do you want your website to be very beautiful ?</p>
+                        <p>
+                            <a class="button" href="#contact">Read More</a>
+                        </p>
+                    </div>   
+            </div>
+
+        
+            <div class="card">
+                <i class= "fas fa-user"></i>
+                    <h5>Web Development</h5>
+                    <div class="card-paragraph"> 
+                        <p>I can create mini games for you.  Try to play with your friends, it will be a lot of fun.</p>
+                        <p>
+                            <a class="button" href="Tic-Tac-Toe/Tic_Tac.html">Start game</a>
+                        </p>
+                    </div>   
+            </div>
+
+            <div class="card">
+                <i class= "fas fa-bell"></i>
+                    <h5>Web Development</h5>
+                    <div class="card-paragraph"> 
+                        <p>You want to have a test site.  I can create a test site for you.  Look here.</p>
+                        <p>
+                            <a class="button" href="mini_project_test/index.html">Read More</a>
+                        </p>
+                    </div>   
+            </div>
+        </div> 
+    </div>
+    </section>
+
+
+    <!-- Contact Secttion -->
+    <div class="contact" id="contact">
+        <p>Let me Get you a Beautiful Website.</p>
+        <a class="button" href="mailto:nematovmz2003@gmail.com">Here me</a>
+    </div>
+
+
+    <footer >
+        <p>Nematov Muhammadjon</p>
+        <p>For more information of me, please contact me at</p>
+        <div class="social-media">
+            <a href="https://telegram.me/smile_nmz">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.instagram.com/nematov_muhammadjon/">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/992501010120">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+           
+            <a href="mailto:nematovmz2003@gmail.com">
+                <i class="fab fa-google"></i>
+            </a>
+        </div>
+        <p class="end">CopyRight by Nematov Muhammadjon</p>
+    </footer>
+    
+    
+    
+    <button id="top-btn" class="top-btn" onclick="topFunction()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const nav = document.querySelector('nav');
+        const topButton = document.getElementById('top-btn');
+        console.log("HEllo SMILE")
+        window.addEventListener('scroll', function(){
+            console.log("I am scrolling");
+            if (window.pageYOffset > 100) {
+                nav.classList.add('scroll');
+                topButton.style.display = 'flex';
+            }else {
+                nav.classList.remove('scroll');
+                topButton.style.display = 'none';
+            }
+        });
+        function topFunction(){
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

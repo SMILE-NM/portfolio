@@ -1,0 +1,69 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color:orange;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:larger;
+    text-shadow:  white;
+    padding-top: 10px;
+    color: bisque;
+    font-weight: bold;
+}
+
+html{
+    background-color: #191919;
+}
+
+input{
+    border-radius: 10px;
+    border-color:darkorange;
+    font-family:'Courier New', Courier, monospace;
+    color:darkred;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+
+
+button{
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 5px;
+    font-size: larger;
+    color:orange;
+    font-weight: bold;
+    border-color:darkgray;
+    font-size: 15px;
+    height: 25px;
+    width: 100px;
+    background-color:gray;
+}
+
+div{
+    text-align: center;
+  }
+
+#test_1{
+  background-color:white;
+}
+
+#test_2{
+    background-color: white;
+}
+
+#test_3{
+    background-color: white;
+}
+
+#test_4{
+    background-color: white;
+}
+
+#test_5{
+    background-color: white;
+}
